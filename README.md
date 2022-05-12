@@ -27,7 +27,7 @@ Next we will use pre-trained Convolutionary Neural Networks(CNN) to convert the 
 | EnetB0_FT (1 layer)      | 6/ Euclidean       | 18.25              | 0.664                        | 0.688                        |
 | EnetB0_FT (1 Module)     | 3/ Euclidean       | 27.75              | 0.681                        | 0.696                        |
 | EnetB0_FT (1 Module)     | 6/ Euclidean       | 32.25              | 0.686                        | 0.701                        |
-| EnetB0_FT (1 Module)     | 3/ Euclidean       | 32.25              | 0.686                        | 0.701                        |
+| EnetB0_FT (1 Module)     | 9/ Euclidean       | 32.25              | 0.686                        | 0.701                        |
 | **EnetB0_FT (1 Module)** | **6/ Cosine**      | **0.225**          | **0.716**                    | **0.724**                    |
 
 
