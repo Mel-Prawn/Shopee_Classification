@@ -30,7 +30,9 @@ Next we will use pre-trained Convolutionary Neural Networks(CNN) to convert the 
 | EnetB0_FT (1 Module)     | 3/ Euclidean       | 32.25              | 0.686                        | 0.701                        |
 | **EnetB0_FT (1 Module)** | **6/ Cosine**      | **0.225**          | **0.716**                    | **0.724**                    |
 
+
 The final model selected is EfficientNetB0 after fine tuning for 6 epochs with 1 module unfrozen. The Cosine distance metric was used to determine which are the same products.
+
 ---
 
 #### Conclusions and Reccomendations
