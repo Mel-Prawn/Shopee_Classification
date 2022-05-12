@@ -4,6 +4,8 @@ E-commerce sites such as Shopee receive multiple product listings daily. To impr
 
 Two different images of similar wares may represent the same product or two completely different items. Retailers want to avoid misrepresentations and other issues that could come from conflating two dissimilar products. Currently, a combination of deep learning and traditional machine learning analyzes image and text information to compare similarity. But major differences in images, titles, and product descriptions prevent these methods from being entirely effective.
 
+Note: This project was adapted from a Kaggle competition ([LINK](https://www.kaggle.com/competitions/shopee-product-matching/overview)).
+
 ### Project Goal
 
 This project aims to create a model that can determine which products are the same based on their product images. Model performance will be evaluated via mean F1 score.
@@ -39,4 +41,3 @@ The model does well in predicting similar items with a mean F1 score of 0.716 on
 The False Positives can be improved further, but are not detrimental to customer experience as these products are still related to the product of interest (e.g. It may reccomend similar products which are not the same exact model). Nonetheless, the model falls short in taking into account the semantics of the product resulting in many false negatives (i.e. Identical products with very different images fail to be detected).
 
 Predictions can be improved by including features which account for these semantics such as product title or product category.
-
