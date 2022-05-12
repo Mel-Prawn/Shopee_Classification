@@ -4,7 +4,7 @@ E-commerce sites such as Shopee receive multiple product listings daily. To impr
 
 Two different images of similar wares may represent the same product or two completely different items. Retailers want to avoid misrepresentations and other issues that could come from conflating two dissimilar products. Currently, a combination of deep learning and traditional machine learning analyzes image and text information to compare similarity. But major differences in images, titles, and product descriptions prevent these methods from being entirely effective.
 
-Note: This project was adapted from a Kaggle competition ([LINK](https://www.kaggle.com/competitions/shopee-product-matching/overview)).
+Note: This project was adapted from a Kaggle competition. Data and full overview can be found in this [LINK](https://www.kaggle.com/competitions/shopee-product-matching/overview).
 
 ### Project Goal
 
